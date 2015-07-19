@@ -1,0 +1,45 @@
+Survey Tolerance Check between survey data and design model <PW 0000SCH1101 21 MISC FND>
+
+
+Parameters
+
+      Search radius: ,0.200
+   Tolerance Method:,Distance
+ Distance tolerance:,0.300
+Elevation tolerance:,0.200
+
+Results
+
+  Point ID,        Code,Model                    ,     Easting,    Northing,   Elevation,    Distance
+   TPS0013,          BT,FND INSITU 150628JTM4 MISC,     550.224,     451.663,      20.610,            ,
+       225,        BOLT,PW 0000SCH1101 21 MISC FND,     550.276,     451.624,      20.605,            
+          ,            ,                         ,       0.052,      -0.039,      -0.005,       0.065
+   TPS0014,          BT,FND INSITU 150628JTM4 MISC,     550.573,     451.665,      20.613,            ,
+       226,        BOLT,PW 0000SCH1101 21 MISC FND,     550.524,     451.624,      20.605,            
+          ,            ,                         ,      -0.049,      -0.041,      -0.008,       0.064
+   TPS0015,          BT,FND INSITU 150628JTM4 MISC,     550.572,     451.316,      20.611,            ,
+       227,        BOLT,PW 0000SCH1101 21 MISC FND,     550.524,     451.376,      20.605,            
+          ,            ,                         ,      -0.048,       0.060,      -0.006,       0.077
+   TPS0016,          BT,FND INSITU 150628JTM4 MISC,     550.222,     451.314,      20.606,            ,
+       228,        BOLT,PW 0000SCH1101 21 MISC FND,     550.276,     451.376,      20.605,            
+          ,            ,                         ,       0.054,       0.062,      -0.001,       0.082
+          ,          PT,FND INSITU 150628JTM4 MISC,     550.097,     451.791,      20.494,            ,
+       216,         TOC,PW 0000SCH1101 21 MISC FND,     550.100,     451.800,      20.500,            
+          ,            ,                         ,       0.003,       0.009,       0.006,       0.010
+          ,          PT,FND INSITU 150628JTM4 MISC,     550.695,     451.792,      20.498,            ,
+       213,         TOC,PW 0000SCH1101 21 MISC FND,     550.700,     451.800,      20.500,            
+          ,            ,                         ,       0.005,       0.008,       0.002,       0.009
+          ,          PT,FND INSITU 150628JTM4 MISC,     550.696,     451.192,      20.496,            ,
+       214,         TOC,PW 0000SCH1101 21 MISC FND,     550.700,     451.200,      20.500,            
+          ,            ,                         ,       0.004,       0.008,       0.004,       0.009
+          ,          PT,FND INSITU 150628JTM4 MISC,     550.097,     451.192,      20.496,            ,
+       215,         TOC,PW 0000SCH1101 21 MISC FND,     550.100,     451.200,      20.500,            
+          ,            ,                         ,       0.003,       0.008,       0.004,       0.009
+
+Summary
+    Range:,            ,                         ,            ,            ,            ,            
+     High:,            ,                         ,       0.054,       0.062,       0.006,            
+      Low:,            ,                         ,      -0.049,      -0.041,      -0.008,            
+    Count:,            ,                         ,           8,           8,           8,            
+     Mean:,            ,                         ,           0,           0,           0,            
+   StdDev:,            ,                         ,           0,       0.036,       0.005,            

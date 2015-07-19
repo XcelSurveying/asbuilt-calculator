@@ -1,0 +1,33 @@
+Survey Tolerance Check between survey data and design model <PW MAIN 0900FND0604 0 FND>
+
+
+Parameters
+
+      Search radius: ,0.025
+   Tolerance Method:,Distance
+ Distance tolerance:,0.025
+Elevation tolerance:,0.025
+
+Results
+
+  Point ID,        Code,Model                    ,     Easting,    Northing,   Elevation,    Distance
+   TPS0054,          TC,FND INSITU 141012THR1    ,     597.695,     513.613,      20.496,            ,
+          ,         BOC,PW MAIN 0900FND0604 0 FND,     597.705,     513.622,      20.100,            
+          ,            ,                         ,       0.010,       0.009,      -0.396,       0.013
+   TPS0055,          TC,FND INSITU 141012THR1    ,     610.041,     513.620,      20.509,            ,
+          ,         BOC,PW MAIN 0900FND0604 0 FND,     610.043,     513.622,      20.100,            
+          ,            ,                         ,       0.002,       0.002,      -0.409,       0.003
+   TPS0002,          TC,FND INSITU 141012THR1    ,     610.039,     506.631,      20.503,            ,
+          ,         BOC,PW MAIN 0900FND0604 0 FND,     610.043,     506.622,      20.100,            
+          ,            ,                         ,       0.004,      -0.009,      -0.403,       0.010
+   TPS0005,          TC,FND INSITU 141012THR1    ,     597.699,     506.636,      20.511,            ,
+          ,         BOC,PW MAIN 0900FND0604 0 FND,     597.705,     506.622,      20.100,            
+          ,            ,                         ,       0.006,      -0.014,      -0.411,       0.015
+
+Summary
+    Range:,            ,                         ,            ,            ,            ,            
+     High:,            ,                         ,       0.010,       0.009,      -0.396,            
+      Low:,            ,                         ,       0.002,      -0.014,      -0.411,            
+    Count:,            ,                         ,           4,           4,           4,            
+     Mean:,            ,                         ,           0,           0,           0,            
+   StdDev:,            ,                         ,           0,       0.009,       0.006,            
